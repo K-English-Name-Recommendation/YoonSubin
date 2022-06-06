@@ -18,6 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E2E466D284DEFDC0086BCEE /* Comfortaa-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comfortaa-Medium.ttf"; path = "../../../../../../../../../../Downloads/Comfortaa/static/Comfortaa-Medium.ttf"; sourceTree = "<group>"; };
+		8E2E466E284DEFDC0086BCEE /* Comfortaa-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comfortaa-Regular.ttf"; path = "../../../../../../../../../../Downloads/Comfortaa/static/Comfortaa-Regular.ttf"; sourceTree = "<group>"; };
+		8E2E466F284DEFDC0086BCEE /* Comfortaa-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comfortaa-SemiBold.ttf"; path = "../../../../../../../../../../Downloads/Comfortaa/static/Comfortaa-SemiBold.ttf"; sourceTree = "<group>"; };
+		8E2E4670284DEFDC0086BCEE /* Comfortaa-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comfortaa-Bold.ttf"; path = "../../../../../../../../../../Downloads/Comfortaa/static/Comfortaa-Bold.ttf"; sourceTree = "<group>"; };
+		8E2E4671284DEFDC0086BCEE /* Comfortaa-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comfortaa-Light.ttf"; path = "../../../../../../../../../../Downloads/Comfortaa/static/Comfortaa-Light.ttf"; sourceTree = "<group>"; };
 		8EB8FA07282CE12600B3BCEC /* E-NAME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-NAME.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB8FA0A282CE12600B3BCEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EB8FA0C282CE12600B3BCEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +46,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E2E4667284DEF6E0086BCEE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8E2E4670284DEFDC0086BCEE /* Comfortaa-Bold.ttf */,
+				8E2E4671284DEFDC0086BCEE /* Comfortaa-Light.ttf */,
+				8E2E466D284DEFDC0086BCEE /* Comfortaa-Medium.ttf */,
+				8E2E466E284DEFDC0086BCEE /* Comfortaa-Regular.ttf */,
+				8E2E466F284DEFDC0086BCEE /* Comfortaa-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		8EB8F9FE282CE12600B3BCEC = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +130,7 @@
 		8EB8FA23282CE47400B3BCEC /* Asset */ = {
 			isa = PBXGroup;
 			children = (
+				8E2E4667284DEF6E0086BCEE /* Fonts */,
 				8EB8FA13282CE12700B3BCEC /* Assets.xcassets */,
 			);
 			path = Asset;
