@@ -1,23 +1,25 @@
 //
-//  HomeViewController.swift
+//  LoginViewController.swift
 //  E-NAME
 //
-//  Created by subinyoon on 2022/05/12.
+//  Created by subinyoon on 2022/06/07.
 //
 
 import UIKit
 
-class HomeViewController: UIViewController {
-
+class LoginViewController: UIViewController {
+    
+    @IBOutlet weak var idTextField: UITextField!
+    @IBOutlet weak var pwTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         backButtonCustom()
+        hideKeyboardWhenTappedAround()
     }
     
     @IBAction func loginButtonTapped(_ sender: Any) {
-        guard let loginVC = UIStoryboard(name: "Login", bundle: nil).instantiateViewController(withIdentifier: LoginViewController.className) as? LoginViewController else { return }
         
-        self.navigationController?.pushViewController(loginVC, animated: true)
     }
     
     @IBAction func signupButtonTapped(_ sender: Any) {
@@ -26,3 +28,4 @@ class HomeViewController: UIViewController {
         self.navigationController?.pushViewController(signupVC, animated: true)
     }
 }
+

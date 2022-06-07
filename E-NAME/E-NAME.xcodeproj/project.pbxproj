@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E4690FA284E635D0017A081 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4690F9284E635D0017A081 /* LoginViewController.swift */; };
+		8E4690FC284E63670017A081 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4690FB284E63670017A081 /* Login.storyboard */; };
+		8E4690FE284E63760017A081 /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4690FD284E63760017A081 /* SignUp.storyboard */; };
+		8E469100284E63820017A081 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4690FF284E63820017A081 /* SignUpViewController.swift */; };
+		8E469107284E65260017A081 /* Comfortaa-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E469102284E65260017A081 /* Comfortaa-Light.ttf */; };
+		8E469108284E65260017A081 /* Comfortaa-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E469103284E65260017A081 /* Comfortaa-SemiBold.ttf */; };
+		8E469109284E65260017A081 /* Comfortaa-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E469104284E65260017A081 /* Comfortaa-Bold.ttf */; };
+		8E46910A284E65260017A081 /* Comfortaa-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E469105284E65260017A081 /* Comfortaa-Regular.ttf */; };
+		8E46910B284E65260017A081 /* Comfortaa-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E469106284E65260017A081 /* Comfortaa-Medium.ttf */; };
+		8E8BB14C284E720C00301EC5 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8BB14B284E720C00301EC5 /* UIViewController+.swift */; };
+		8E8BB14E284E729700301EC5 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8BB14D284E729700301EC5 /* UIView+.swift */; };
+		8E8BB153284F3CA700301EC5 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8BB152284F3CA700301EC5 /* RegisterViewController.swift */; };
+		8E8BB155284F420400301EC5 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8BB154284F420400301EC5 /* WelcomeViewController.swift */; };
+		8E8BB157284F420D00301EC5 /* Welcome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E8BB156284F420D00301EC5 /* Welcome.storyboard */; };
 		8EB8FA0B282CE12600B3BCEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8FA0A282CE12600B3BCEC /* AppDelegate.swift */; };
 		8EB8FA0D282CE12600B3BCEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8FA0C282CE12600B3BCEC /* SceneDelegate.swift */; };
 		8EB8FA0F282CE12600B3BCEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8FA0E282CE12600B3BCEC /* ViewController.swift */; };
@@ -18,11 +32,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8E2E466D284DEFDC0086BCEE /* Comfortaa-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comfortaa-Medium.ttf"; path = "../../../../../../../../../../Downloads/Comfortaa/static/Comfortaa-Medium.ttf"; sourceTree = "<group>"; };
-		8E2E466E284DEFDC0086BCEE /* Comfortaa-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comfortaa-Regular.ttf"; path = "../../../../../../../../../../Downloads/Comfortaa/static/Comfortaa-Regular.ttf"; sourceTree = "<group>"; };
-		8E2E466F284DEFDC0086BCEE /* Comfortaa-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comfortaa-SemiBold.ttf"; path = "../../../../../../../../../../Downloads/Comfortaa/static/Comfortaa-SemiBold.ttf"; sourceTree = "<group>"; };
-		8E2E4670284DEFDC0086BCEE /* Comfortaa-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comfortaa-Bold.ttf"; path = "../../../../../../../../../../Downloads/Comfortaa/static/Comfortaa-Bold.ttf"; sourceTree = "<group>"; };
-		8E2E4671284DEFDC0086BCEE /* Comfortaa-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comfortaa-Light.ttf"; path = "../../../../../../../../../../Downloads/Comfortaa/static/Comfortaa-Light.ttf"; sourceTree = "<group>"; };
+		8E4690F9284E635D0017A081 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8E4690FB284E63670017A081 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		8E4690FD284E63760017A081 /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
+		8E4690FF284E63820017A081 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		8E469102284E65260017A081 /* Comfortaa-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comfortaa-Light.ttf"; path = "../../../../../../../../../../Downloads/Comfortaa-2/static/Comfortaa-Light.ttf"; sourceTree = "<group>"; };
+		8E469103284E65260017A081 /* Comfortaa-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comfortaa-SemiBold.ttf"; path = "../../../../../../../../../../Downloads/Comfortaa-2/static/Comfortaa-SemiBold.ttf"; sourceTree = "<group>"; };
+		8E469104284E65260017A081 /* Comfortaa-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comfortaa-Bold.ttf"; path = "../../../../../../../../../../Downloads/Comfortaa-2/static/Comfortaa-Bold.ttf"; sourceTree = "<group>"; };
+		8E469105284E65260017A081 /* Comfortaa-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comfortaa-Regular.ttf"; path = "../../../../../../../../../../Downloads/Comfortaa-2/static/Comfortaa-Regular.ttf"; sourceTree = "<group>"; };
+		8E469106284E65260017A081 /* Comfortaa-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comfortaa-Medium.ttf"; path = "../../../../../../../../../../Downloads/Comfortaa-2/static/Comfortaa-Medium.ttf"; sourceTree = "<group>"; };
+		8E8BB14B284E720C00301EC5 /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		8E8BB14D284E729700301EC5 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		8E8BB152284F3CA700301EC5 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		8E8BB154284F420400301EC5 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		8E8BB156284F420D00301EC5 /* Welcome.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Welcome.storyboard; sourceTree = "<group>"; };
 		8EB8FA07282CE12600B3BCEC /* E-NAME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-NAME.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB8FA0A282CE12600B3BCEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EB8FA0C282CE12600B3BCEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,16 +69,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8E2E4667284DEF6E0086BCEE /* Fonts */ = {
+		8E4690F8284E63360017A081 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
-				8E2E4670284DEFDC0086BCEE /* Comfortaa-Bold.ttf */,
-				8E2E4671284DEFDC0086BCEE /* Comfortaa-Light.ttf */,
-				8E2E466D284DEFDC0086BCEE /* Comfortaa-Medium.ttf */,
-				8E2E466E284DEFDC0086BCEE /* Comfortaa-Regular.ttf */,
-				8E2E466F284DEFDC0086BCEE /* Comfortaa-SemiBold.ttf */,
+				8E4690FB284E63670017A081 /* Login.storyboard */,
+				8E4690FD284E63760017A081 /* SignUp.storyboard */,
+				8E8BB156284F420D00301EC5 /* Welcome.storyboard */,
+				8E4690F9284E635D0017A081 /* LoginViewController.swift */,
+				8E4690FF284E63820017A081 /* SignUpViewController.swift */,
+				8E8BB152284F3CA700301EC5 /* RegisterViewController.swift */,
+				8E8BB154284F420400301EC5 /* WelcomeViewController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		8E469101284E651A0017A081 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8E469104284E65260017A081 /* Comfortaa-Bold.ttf */,
+				8E469102284E65260017A081 /* Comfortaa-Light.ttf */,
+				8E469106284E65260017A081 /* Comfortaa-Medium.ttf */,
+				8E469105284E65260017A081 /* Comfortaa-Regular.ttf */,
+				8E469103284E65260017A081 /* Comfortaa-SemiBold.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8E8BB149284E71EE00301EC5 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				8E8BB14A284E71F300301EC5 /* Extension */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		8E8BB14A284E71F300301EC5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8E8BB14D284E729700301EC5 /* UIView+.swift */,
+				8E8BB14B284E720C00301EC5 /* UIViewController+.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		8EB8F9FE282CE12600B3BCEC = {
@@ -77,19 +131,12 @@
 		8EB8FA09282CE12600B3BCEC /* E-NAME */ = {
 			isa = PBXGroup;
 			children = (
-				8EB8FA1E282CE44200B3BCEC /* Global */,
+				8E8BB149284E71EE00301EC5 /* Global */,
 				8EB8FA1F282CE44800B3BCEC /* Source */,
 				8EB8FA20282CE44F00B3BCEC /* Resource */,
 				8EB8FA18282CE12700B3BCEC /* Info.plist */,
 			);
 			path = "E-NAME";
-			sourceTree = "<group>";
-		};
-		8EB8FA1E282CE44200B3BCEC /* Global */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Global;
 			sourceTree = "<group>";
 		};
 		8EB8FA1F282CE44800B3BCEC /* Source */ = {
@@ -114,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				8EB8FA22282CE46500B3BCEC /* Home */,
+				8E4690F8284E63360017A081 /* Auth */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -130,7 +178,7 @@
 		8EB8FA23282CE47400B3BCEC /* Asset */ = {
 			isa = PBXGroup;
 			children = (
-				8E2E4667284DEF6E0086BCEE /* Fonts */,
+				8E469101284E651A0017A081 /* Fonts */,
 				8EB8FA13282CE12700B3BCEC /* Assets.xcassets */,
 			);
 			path = Asset;
@@ -215,8 +263,16 @@
 			files = (
 				8EB8FA17282CE12700B3BCEC /* LaunchScreen.storyboard in Resources */,
 				8EB8FA14282CE12700B3BCEC /* Assets.xcassets in Resources */,
+				8E469108284E65260017A081 /* Comfortaa-SemiBold.ttf in Resources */,
+				8E4690FE284E63760017A081 /* SignUp.storyboard in Resources */,
 				8EB8FA12282CE12600B3BCEC /* Main.storyboard in Resources */,
+				8E8BB157284F420D00301EC5 /* Welcome.storyboard in Resources */,
+				8E469107284E65260017A081 /* Comfortaa-Light.ttf in Resources */,
+				8E4690FC284E63670017A081 /* Login.storyboard in Resources */,
 				8EB8FA27282CE4BC00B3BCEC /* Home.storyboard in Resources */,
+				8E46910A284E65260017A081 /* Comfortaa-Regular.ttf in Resources */,
+				8E469109284E65260017A081 /* Comfortaa-Bold.ttf in Resources */,
+				8E46910B284E65260017A081 /* Comfortaa-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,9 +283,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E8BB153284F3CA700301EC5 /* RegisterViewController.swift in Sources */,
+				8E8BB155284F420400301EC5 /* WelcomeViewController.swift in Sources */,
+				8E8BB14C284E720C00301EC5 /* UIViewController+.swift in Sources */,
+				8E469100284E63820017A081 /* SignUpViewController.swift in Sources */,
 				8EB8FA0F282CE12600B3BCEC /* ViewController.swift in Sources */,
 				8EB8FA0B282CE12600B3BCEC /* AppDelegate.swift in Sources */,
+				8E8BB14E284E729700301EC5 /* UIView+.swift in Sources */,
 				8EB8FA0D282CE12600B3BCEC /* SceneDelegate.swift in Sources */,
+				8E4690FA284E635D0017A081 /* LoginViewController.swift in Sources */,
 				8EB8FA29282CE4C300B3BCEC /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
