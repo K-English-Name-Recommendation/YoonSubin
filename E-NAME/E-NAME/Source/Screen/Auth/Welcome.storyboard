@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Welcome View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="WelcomeViewController" id="Y6W-OH-hqX" customClass="WelcomeViewController" customModule="E_NAME" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Welcome" translatesAutoresizingMaskIntoConstraints="NO" id="33p-Ev-GgP">
+                                <rect key="frame" x="108.66666666666669" y="144" width="158" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="rUf-az-WkY"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VPg-Pd-AkA">
+                                <rect key="frame" x="97.666666666666671" y="274" width="179.66666666666663" height="65.333333333333314"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="VPg-Pd-AkA" secondAttribute="height" multiplier="179:65" id="X8E-C8-f2R"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="OOO님, 가입을 축하합니다">
+                                        <attributes>
+                                            <font key="NSFont" size="25" name="AppleSDGothicNeo-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="5" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dFm-cF-Ucv">
+                                <rect key="frame" x="10" y="464.33333333333331" width="355" height="53.666666666666686"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="dFm-cF-Ucv" secondAttribute="height" multiplier="343:52" id="hcJ-8o-lHO"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="로그인">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain" cornerStyle="medium">
+                                    <backgroundConfiguration key="background" strokeWidth="0.0">
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="strokeColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </backgroundConfiguration>
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="완료">
+                                            <attributes>
+                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <font key="NSFont" size="14" name="AppleSDGothicNeo-Bold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="completeButtonTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="8Ln-Wz-2pP"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="언제든지 연락처 정보와 사용자 이름를 변경할 수 있습니다." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xYI-tL-PUm">
+                                <rect key="frame" x="49" y="369.33333333333331" width="277" height="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="33p-Ev-GgP" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="MgQ-kL-Co3"/>
+                            <constraint firstItem="xYI-tL-PUm" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="PII-M4-H8r"/>
+                            <constraint firstItem="VPg-Pd-AkA" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="Vbk-h3-Vi4"/>
+                            <constraint firstItem="dFm-cF-Ucv" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="10" id="VnJ-ng-rPK"/>
+                            <constraint firstItem="xYI-tL-PUm" firstAttribute="top" secondItem="VPg-Pd-AkA" secondAttribute="bottom" constant="30" id="Xbo-wG-flq"/>
+                            <constraint firstItem="dFm-cF-Ucv" firstAttribute="top" secondItem="xYI-tL-PUm" secondAttribute="bottom" constant="80" id="b7P-nX-IsD"/>
+                            <constraint firstItem="VPg-Pd-AkA" firstAttribute="top" secondItem="33p-Ev-GgP" secondAttribute="bottom" constant="80" id="gtM-aZ-aVa"/>
+                            <constraint firstItem="33p-Ev-GgP" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="100" id="tPd-Tc-atI"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="dFm-cF-Ucv" secondAttribute="trailing" constant="10" id="wzF-rc-Bmh"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="welcomeMessageLabel" destination="VPg-Pd-AkA" id="3LS-MO-uM1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="59" y="74"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Welcome" width="158.33332824707031" height="40"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
