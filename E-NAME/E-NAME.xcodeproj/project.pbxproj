@@ -160,19 +160,9 @@
 		8EB8FA21282CE46100B3BCEC /* Screen */ = {
 			isa = PBXGroup;
 			children = (
-				8EB8FA22282CE46500B3BCEC /* Home */,
 				8E4690F8284E63360017A081 /* Auth */,
 			);
 			path = Screen;
-			sourceTree = "<group>";
-		};
-		8EB8FA22282CE46500B3BCEC /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				8EB8FA26282CE4BC00B3BCEC /* Home.storyboard */,
-				8EB8FA28282CE4C300B3BCEC /* HomeViewController.swift */,
-			);
-			path = Home;
 			sourceTree = "<group>";
 		};
 		8EB8FA23282CE47400B3BCEC /* Asset */ = {
