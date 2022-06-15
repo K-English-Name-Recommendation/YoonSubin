@@ -16,6 +16,10 @@
 		8E469109284E65260017A081 /* Comfortaa-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E469104284E65260017A081 /* Comfortaa-Bold.ttf */; };
 		8E46910A284E65260017A081 /* Comfortaa-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E469105284E65260017A081 /* Comfortaa-Regular.ttf */; };
 		8E46910B284E65260017A081 /* Comfortaa-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E469106284E65260017A081 /* Comfortaa-Medium.ttf */; };
+		8E4941C928579F2700E3F5E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4941C828579F2700E3F5E3 /* Main.storyboard */; };
+		8E4941CB28579F3E00E3F5E3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4941CA28579F3E00E3F5E3 /* MainViewController.swift */; };
+		8E4941D72857B8A200E3F5E3 /* Survey.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4941D62857B8A200E3F5E3 /* Survey.storyboard */; };
+		8E4941E028585E8D00E3F5E3 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E4941DF28585E8D00E3F5E3 /* Data.json */; };
 		8E8BB14C284E720C00301EC5 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8BB14B284E720C00301EC5 /* UIViewController+.swift */; };
 		8E8BB14E284E729700301EC5 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8BB14D284E729700301EC5 /* UIView+.swift */; };
 		8E8BB153284F3CA700301EC5 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8BB152284F3CA700301EC5 /* RegisterViewController.swift */; };
@@ -29,6 +33,12 @@
 		8EB8FA17282CE12700B3BCEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EB8FA15282CE12700B3BCEC /* LaunchScreen.storyboard */; };
 		8EB8FA27282CE4BC00B3BCEC /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EB8FA26282CE4BC00B3BCEC /* Home.storyboard */; };
 		8EB8FA29282CE4C300B3BCEC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8FA28282CE4C300B3BCEC /* HomeViewController.swift */; };
+		8EC091F228586081006B3DAE /* MockParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC091F128586081006B3DAE /* MockParser.swift */; };
+		8EC091F5285860C7006B3DAE /* MockManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC091F4285860C7006B3DAE /* MockManager.swift */; };
+		8EC091F8285860FF006B3DAE /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC091F7285860FF006B3DAE /* Data.swift */; };
+		8EC091FA2858FA82006B3DAE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC091F92858FA82006B3DAE /* FirstViewController.swift */; };
+		8EC091FD2858FADA006B3DAE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC091FC2858FADA006B3DAE /* SecondViewController.swift */; };
+		8EC091FF2858FAE1006B3DAE /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC091FE2858FAE1006B3DAE /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +51,10 @@
 		8E469104284E65260017A081 /* Comfortaa-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comfortaa-Bold.ttf"; path = "../../../../../../../../../../Downloads/Comfortaa-2/static/Comfortaa-Bold.ttf"; sourceTree = "<group>"; };
 		8E469105284E65260017A081 /* Comfortaa-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comfortaa-Regular.ttf"; path = "../../../../../../../../../../Downloads/Comfortaa-2/static/Comfortaa-Regular.ttf"; sourceTree = "<group>"; };
 		8E469106284E65260017A081 /* Comfortaa-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comfortaa-Medium.ttf"; path = "../../../../../../../../../../Downloads/Comfortaa-2/static/Comfortaa-Medium.ttf"; sourceTree = "<group>"; };
+		8E4941C828579F2700E3F5E3 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8E4941CA28579F3E00E3F5E3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		8E4941D62857B8A200E3F5E3 /* Survey.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Survey.storyboard; sourceTree = "<group>"; };
+		8E4941DF28585E8D00E3F5E3 /* Data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
 		8E8BB14B284E720C00301EC5 /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
 		8E8BB14D284E729700301EC5 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
 		8E8BB152284F3CA700301EC5 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +70,12 @@
 		8EB8FA18282CE12700B3BCEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EB8FA26282CE4BC00B3BCEC /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		8EB8FA28282CE4C300B3BCEC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8EC091F128586081006B3DAE /* MockParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockParser.swift; sourceTree = "<group>"; };
+		8EC091F4285860C7006B3DAE /* MockManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockManager.swift; sourceTree = "<group>"; };
+		8EC091F7285860FF006B3DAE /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		8EC091F92858FA82006B3DAE /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		8EC091FC2858FADA006B3DAE /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		8EC091FE2858FAE1006B3DAE /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,9 +92,11 @@
 		8E4690F8284E63360017A081 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
+				8EB8FA26282CE4BC00B3BCEC /* Home.storyboard */,
 				8E4690FB284E63670017A081 /* Login.storyboard */,
 				8E4690FD284E63760017A081 /* SignUp.storyboard */,
 				8E8BB156284F420D00301EC5 /* Welcome.storyboard */,
+				8EB8FA28282CE4C300B3BCEC /* HomeViewController.swift */,
 				8E4690F9284E635D0017A081 /* LoginViewController.swift */,
 				8E4690FF284E63820017A081 /* SignUpViewController.swift */,
 				8E8BB152284F3CA700301EC5 /* RegisterViewController.swift */,
@@ -95,9 +117,41 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		8E4941C728579F1200E3F5E3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8E4941C828579F2700E3F5E3 /* Main.storyboard */,
+				8E4941CA28579F3E00E3F5E3 /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8E4941D82857B8A700E3F5E3 /* Survey */ = {
+			isa = PBXGroup;
+			children = (
+				8E4941D62857B8A200E3F5E3 /* Survey.storyboard */,
+				8EC091F92858FA82006B3DAE /* FirstViewController.swift */,
+				8EC091FC2858FADA006B3DAE /* SecondViewController.swift */,
+				8EC091FE2858FAE1006B3DAE /* ThirdViewController.swift */,
+			);
+			path = Survey;
+			sourceTree = "<group>";
+		};
+		8E4941DA28585E4300E3F5E3 /* MockData */ = {
+			isa = PBXGroup;
+			children = (
+				8E4941DF28585E8D00E3F5E3 /* Data.json */,
+			);
+			path = MockData;
+			sourceTree = "<group>";
+		};
 		8E8BB149284E71EE00301EC5 /* Global */ = {
 			isa = PBXGroup;
 			children = (
+				8EC091F6285860F7006B3DAE /* Model */,
+				8E4941DA28585E4300E3F5E3 /* MockData */,
+				8EC091F3285860B3006B3DAE /* Service */,
+				8EC091F028586075006B3DAE /* Network */,
 				8E8BB14A284E71F300301EC5 /* Extension */,
 			);
 			path = Global;
@@ -161,6 +215,8 @@
 			isa = PBXGroup;
 			children = (
 				8E4690F8284E63360017A081 /* Auth */,
+				8E4941C728579F1200E3F5E3 /* Main */,
+				8E4941D82857B8A700E3F5E3 /* Survey */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -191,6 +247,30 @@
 				8EB8FA0E282CE12600B3BCEC /* ViewController.swift */,
 			);
 			path = Support;
+			sourceTree = "<group>";
+		};
+		8EC091F028586075006B3DAE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8EC091F128586081006B3DAE /* MockParser.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		8EC091F3285860B3006B3DAE /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				8EC091F4285860C7006B3DAE /* MockManager.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		8EC091F6285860F7006B3DAE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8EC091F7285860FF006B3DAE /* Data.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,11 +337,14 @@
 				8E4690FE284E63760017A081 /* SignUp.storyboard in Resources */,
 				8EB8FA12282CE12600B3BCEC /* Main.storyboard in Resources */,
 				8E8BB157284F420D00301EC5 /* Welcome.storyboard in Resources */,
+				8E4941D72857B8A200E3F5E3 /* Survey.storyboard in Resources */,
 				8E469107284E65260017A081 /* Comfortaa-Light.ttf in Resources */,
+				8E4941C928579F2700E3F5E3 /* Main.storyboard in Resources */,
 				8E4690FC284E63670017A081 /* Login.storyboard in Resources */,
 				8EB8FA27282CE4BC00B3BCEC /* Home.storyboard in Resources */,
 				8E46910A284E65260017A081 /* Comfortaa-Regular.ttf in Resources */,
 				8E469109284E65260017A081 /* Comfortaa-Bold.ttf in Resources */,
+				8E4941E028585E8D00E3F5E3 /* Data.json in Resources */,
 				8E46910B284E65260017A081 /* Comfortaa-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,16 +356,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EC091FF2858FAE1006B3DAE /* ThirdViewController.swift in Sources */,
+				8EC091FD2858FADA006B3DAE /* SecondViewController.swift in Sources */,
 				8E8BB153284F3CA700301EC5 /* RegisterViewController.swift in Sources */,
+				8E4941CB28579F3E00E3F5E3 /* MainViewController.swift in Sources */,
+				8EC091FA2858FA82006B3DAE /* FirstViewController.swift in Sources */,
 				8E8BB155284F420400301EC5 /* WelcomeViewController.swift in Sources */,
 				8E8BB14C284E720C00301EC5 /* UIViewController+.swift in Sources */,
 				8E469100284E63820017A081 /* SignUpViewController.swift in Sources */,
 				8EB8FA0F282CE12600B3BCEC /* ViewController.swift in Sources */,
+				8EC091F228586081006B3DAE /* MockParser.swift in Sources */,
+				8EC091F8285860FF006B3DAE /* Data.swift in Sources */,
 				8EB8FA0B282CE12600B3BCEC /* AppDelegate.swift in Sources */,
 				8E8BB14E284E729700301EC5 /* UIView+.swift in Sources */,
 				8EB8FA0D282CE12600B3BCEC /* SceneDelegate.swift in Sources */,
 				8E4690FA284E635D0017A081 /* LoginViewController.swift in Sources */,
 				8EB8FA29282CE4C300B3BCEC /* HomeViewController.swift in Sources */,
+				8EC091F5285860C7006B3DAE /* MockManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
