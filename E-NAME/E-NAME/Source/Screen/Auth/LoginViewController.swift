@@ -36,12 +36,7 @@ class LoginViewController: UIViewController {
     
     @IBAction func loginButtonTapped(_ sender: Any) {
         guard let mainVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: MainViewController.className) as? MainViewController else { return }
-        
-        /// 루트 뷰 컨트롤러 변경 및 애니메이션 효과
-        guard let uWindow = self.view.window else { return }
-        uWindow.rootViewController = mainVC
-        uWindow.makeKey()
-        UIView.transition(with: uWindow, duration: 0.5, options: [.transitionCrossDissolve], animations: {}, completion: nil)
+        self.navigationController?.pushViewController(mainVC, animated: true)
     }
     
     @IBAction func signupButtonTapped(_ sender: Any) {
