@@ -35,7 +35,8 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func loginButtonTapped(_ sender: Any) {
-        
+        guard let mainVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: MainViewController.className) as? MainViewController else { return }
+        self.navigationController?.pushViewController(mainVC, animated: true)
     }
     
     @IBAction func signupButtonTapped(_ sender: Any) {

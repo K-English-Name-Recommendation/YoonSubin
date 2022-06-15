@@ -20,6 +20,9 @@ class WelcomeViewController: UIViewController {
     
     @IBAction func completeButtonTapped(_ sender: Any) {
         
+        guard let loginVC = UIStoryboard(name: "Login", bundle: nil).instantiateViewController(withIdentifier: LoginViewController.className) as? LoginViewController else { return }
+        self.navigationController?.pushViewController(loginVC, animated: true)
+        
     }
     
     private func setUserName() {
