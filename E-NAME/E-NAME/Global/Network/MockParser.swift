@@ -17,11 +17,11 @@ final class MockParser {
             return nil
         }
         
-        print(jsonString)
+//        print(jsonString)
         
         let decoder = JSONDecoder()
         let data = jsonString.data(using: .utf8)
-        print(data as Any)
+//        print(data as Any)
         
         guard let data = data else { return nil }
         return try? decoder.decode(type, from: data)
