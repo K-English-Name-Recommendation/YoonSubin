@@ -18,4 +18,13 @@ class FirstViewController: UIViewController {
         guard let nextVC = UIStoryboard(name: "Survey", bundle: nil).instantiateViewController(withIdentifier: SecondViewController.className) as? SecondViewController else { return }
         self.navigationController?.pushViewController(nextVC, animated: true)
     }
+    
+    @IBAction func cancelButtonTapped(_ sender: Any) {
+        guard let mainVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: MainViewController.className) as? MainViewController else { return }
+        let nvc = UINavigationController(rootViewController: mainVC)
+        guard let uWindow = self.view.window else { return }
+        uWindow.rootViewController = nvc
+        uWindow.makeKey()
+        UIView.transition(with: uWindow, duration: 0.5, options: [.transitionCrossDissolve], animations: {}, completion: nil)
+    }
 }
