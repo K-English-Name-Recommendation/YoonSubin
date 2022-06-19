@@ -13,6 +13,16 @@ class WaitingViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        backButtonCustom()
+        setUI()
+    }
+    
+    func setUI() {
+        guard let nextVC = UIStoryboard(name: "Result", bundle: nil).instantiateViewController(withIdentifier: ResultViewController.className) as? ResultViewController else { return }
+        progressIndicator.startAnimating()
+        DispatchQueue.main.asyncAfter(deadline: .now()+2, execute: {
+            self.progressIndicator.stopAnimating()
+            self.navigationController?.pushViewController(nextVC, animated: true)
+        })
     }
 }
