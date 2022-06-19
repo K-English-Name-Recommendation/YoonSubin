@@ -2,6 +2,15 @@
 
 > 단국대학교 2022 캡스톤 디자인 프로젝트 윤수빈 개인 레포입니다.
 
+## E-NAM(이나미) iOS Application
+
+> 클론받아서 xcode 파일 실행시키면 됩니다.
+
+`시뮬레이션 (iPhone 13 mini)`
+
+![Simulator Screen Recording - iPhone 13 mini - 2022-06-20 at 04 46 46](https://user-images.githubusercontent.com/80062632/174497923-43a3b10f-bcdd-4896-9ab9-d58dc9ac0d2f.gif)
+
+
 ## 마크다운 파일 정리
 
 `성씨와 발음을 이용한 영어이름 짓기`
