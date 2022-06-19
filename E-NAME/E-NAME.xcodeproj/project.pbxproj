@@ -20,6 +20,12 @@
 		8E4941CB28579F3E00E3F5E3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4941CA28579F3E00E3F5E3 /* MainViewController.swift */; };
 		8E4941D72857B8A200E3F5E3 /* Survey.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4941D62857B8A200E3F5E3 /* Survey.storyboard */; };
 		8E4941E028585E8D00E3F5E3 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E4941DF28585E8D00E3F5E3 /* Data.json */; };
+		8E4D56DD285E2A640020F018 /* Result.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4D56DC285E2A640020F018 /* Result.storyboard */; };
+		8E4D56DF285E2A7D0020F018 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4D56DE285E2A7D0020F018 /* ResultViewController.swift */; };
+		8E4EE047285E4BEB00771FD3 /* BottomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4EE046285E4BEB00771FD3 /* BottomViewController.swift */; };
+		8E58BBCF285F663000DF9F44 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E58BBCE285F663000DF9F44 /* Profile.storyboard */; };
+		8E58BBD1285F663F00DF9F44 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E58BBD0285F663F00DF9F44 /* ProfileViewController.swift */; };
+		8E6D4D80285E4FDB00536898 /* WaitingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6D4D7F285E4FDB00536898 /* WaitingViewController.swift */; };
 		8E8BB14C284E720C00301EC5 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8BB14B284E720C00301EC5 /* UIViewController+.swift */; };
 		8E8BB14E284E729700301EC5 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8BB14D284E729700301EC5 /* UIView+.swift */; };
 		8E8BB153284F3CA700301EC5 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8BB152284F3CA700301EC5 /* RegisterViewController.swift */; };
@@ -55,6 +61,12 @@
 		8E4941CA28579F3E00E3F5E3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		8E4941D62857B8A200E3F5E3 /* Survey.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Survey.storyboard; sourceTree = "<group>"; };
 		8E4941DF28585E8D00E3F5E3 /* Data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
+		8E4D56DC285E2A640020F018 /* Result.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Result.storyboard; sourceTree = "<group>"; };
+		8E4D56DE285E2A7D0020F018 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		8E4EE046285E4BEB00771FD3 /* BottomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomViewController.swift; sourceTree = "<group>"; };
+		8E58BBCE285F663000DF9F44 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		8E58BBD0285F663F00DF9F44 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		8E6D4D7F285E4FDB00536898 /* WaitingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingViewController.swift; sourceTree = "<group>"; };
 		8E8BB14B284E720C00301EC5 /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
 		8E8BB14D284E729700301EC5 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
 		8E8BB152284F3CA700301EC5 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
@@ -121,7 +133,9 @@
 			isa = PBXGroup;
 			children = (
 				8E4941C828579F2700E3F5E3 /* Main.storyboard */,
+				8E58BBCE285F663000DF9F44 /* Profile.storyboard */,
 				8E4941CA28579F3E00E3F5E3 /* MainViewController.swift */,
+				8E58BBD0285F663F00DF9F44 /* ProfileViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -130,9 +144,13 @@
 			isa = PBXGroup;
 			children = (
 				8E4941D62857B8A200E3F5E3 /* Survey.storyboard */,
+				8E4D56DC285E2A640020F018 /* Result.storyboard */,
 				8EC091F92858FA82006B3DAE /* FirstViewController.swift */,
 				8EC091FC2858FADA006B3DAE /* SecondViewController.swift */,
 				8EC091FE2858FAE1006B3DAE /* ThirdViewController.swift */,
+				8E4D56DE285E2A7D0020F018 /* ResultViewController.swift */,
+				8E4EE046285E4BEB00771FD3 /* BottomViewController.swift */,
+				8E6D4D7F285E4FDB00536898 /* WaitingViewController.swift */,
 			);
 			path = Survey;
 			sourceTree = "<group>";
@@ -338,11 +356,13 @@
 				8EB8FA12282CE12600B3BCEC /* Main.storyboard in Resources */,
 				8E8BB157284F420D00301EC5 /* Welcome.storyboard in Resources */,
 				8E4941D72857B8A200E3F5E3 /* Survey.storyboard in Resources */,
+				8E4D56DD285E2A640020F018 /* Result.storyboard in Resources */,
 				8E469107284E65260017A081 /* Comfortaa-Light.ttf in Resources */,
 				8E4941C928579F2700E3F5E3 /* Main.storyboard in Resources */,
 				8E4690FC284E63670017A081 /* Login.storyboard in Resources */,
 				8EB8FA27282CE4BC00B3BCEC /* Home.storyboard in Resources */,
 				8E46910A284E65260017A081 /* Comfortaa-Regular.ttf in Resources */,
+				8E58BBCF285F663000DF9F44 /* Profile.storyboard in Resources */,
 				8E469109284E65260017A081 /* Comfortaa-Bold.ttf in Resources */,
 				8E4941E028585E8D00E3F5E3 /* Data.json in Resources */,
 				8E46910B284E65260017A081 /* Comfortaa-Medium.ttf in Resources */,
@@ -356,6 +376,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E6D4D80285E4FDB00536898 /* WaitingViewController.swift in Sources */,
 				8EC091FF2858FAE1006B3DAE /* ThirdViewController.swift in Sources */,
 				8EC091FD2858FADA006B3DAE /* SecondViewController.swift in Sources */,
 				8E8BB153284F3CA700301EC5 /* RegisterViewController.swift in Sources */,
@@ -363,6 +384,7 @@
 				8EC091FA2858FA82006B3DAE /* FirstViewController.swift in Sources */,
 				8E8BB155284F420400301EC5 /* WelcomeViewController.swift in Sources */,
 				8E8BB14C284E720C00301EC5 /* UIViewController+.swift in Sources */,
+				8E4EE047285E4BEB00771FD3 /* BottomViewController.swift in Sources */,
 				8E469100284E63820017A081 /* SignUpViewController.swift in Sources */,
 				8EB8FA0F282CE12600B3BCEC /* ViewController.swift in Sources */,
 				8EC091F228586081006B3DAE /* MockParser.swift in Sources */,
@@ -372,7 +394,9 @@
 				8EB8FA0D282CE12600B3BCEC /* SceneDelegate.swift in Sources */,
 				8E4690FA284E635D0017A081 /* LoginViewController.swift in Sources */,
 				8EB8FA29282CE4C300B3BCEC /* HomeViewController.swift in Sources */,
+				8E58BBD1285F663F00DF9F44 /* ProfileViewController.swift in Sources */,
 				8EC091F5285860C7006B3DAE /* MockManager.swift in Sources */,
+				8E4D56DF285E2A7D0020F018 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
