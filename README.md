@@ -5,6 +5,7 @@
 ## E-NAM(이나미) iOS Application
 
 > 클론받아서 xcode 파일 실행시키면 됩니다.
+> 데모버전입니다.
 
 `시뮬레이션 (iPhone 13 mini)`
 
