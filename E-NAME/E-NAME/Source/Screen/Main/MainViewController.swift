@@ -8,18 +8,10 @@
 import UIKit
 
 class MainViewController: UIViewController {
-    
-    var datas: [Data] = [] {
-        didSet {
-            print("mock data update")
-        }
-    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         backButtonCustom()
-//        guard let data = MockParser.load([Data].self, from: "Data") else { return }
-//        print(data)
     }
     
     override func viewWillAppear(_ animated: Bool) {
