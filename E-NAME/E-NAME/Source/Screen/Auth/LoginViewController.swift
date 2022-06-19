@@ -36,7 +36,13 @@ class LoginViewController: UIViewController {
     
     @IBAction func loginButtonTapped(_ sender: Any) {
         guard let mainVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: MainViewController.className) as? MainViewController else { return }
-        self.navigationController?.pushViewController(mainVC, animated: true)
+        
+        let nvc = UINavigationController(rootViewController: mainVC)
+        
+        guard let uWindow = self.view.window else { return }
+        uWindow.rootViewController = nvc
+        uWindow.makeKey()
+        UIView.transition(with: uWindow, duration: 0.5, options: [.transitionCrossDissolve], animations: {}, completion: nil)
     }
     
     @IBAction func signupButtonTapped(_ sender: Any) {
