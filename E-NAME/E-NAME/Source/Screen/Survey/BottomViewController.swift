@@ -9,11 +9,18 @@ import UIKit
 
 class BottomViewController: UIViewController {
 
+    var name: String?
+    var englishMeaning: String?
+    var koreanMeaning: String?
+    var genderMeaning: String?
+    
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var detailLabel: UILabel!
     @IBOutlet weak var bottomView: UIView!
     @IBOutlet weak var bottomViewHeight: NSLayoutConstraint!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        setUI()
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -22,6 +29,16 @@ class BottomViewController: UIViewController {
            touch.view == self.view {
             hideBottomSheetWithAnimation()
         }
+    }
+    
+    func setUI() {
+        guard let name = name,
+              let englishMeaning = englishMeaning,
+              let koreanMeaning = koreanMeaning,
+              let genderMeaning = genderMeaning else { return }
+        
+        nameLabel.text = name
+        detailLabel.text = "영어 뜻 : " + englishMeaning + "\n한글 뜻 : " + koreanMeaning + "\n성별 : " + genderMeaning
     }
 }
 
