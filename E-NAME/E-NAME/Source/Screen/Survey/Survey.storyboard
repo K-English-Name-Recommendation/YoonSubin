@@ -40,8 +40,8 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oYX-Jl-UrC">
-                                                        <rect key="frame" x="294" y="20" width="56" height="30"/>
-                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                        <rect key="frame" x="298" y="20.666666666666671" width="52" height="29"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <state key="normal" title="설문 취소">
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -71,7 +71,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="1gQ-TZ-Mke">
                                                 <rect key="frame" x="20" y="129.33333333333334" width="330" height="40"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ISZ-qx-uQ9">
+                                                    <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ISZ-qx-uQ9">
                                                         <rect key="frame" x="0.0" y="0.0" width="100" height="40"/>
                                                         <color key="backgroundColor" name="enameLightGrey"/>
                                                         <constraints>
@@ -89,10 +89,10 @@
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
-                                                            <action selector="lengthBtn1Action:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="nyJ-RI-gIV"/>
+                                                            <action selector="lengthBtnAction:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Ker-XU-t3G"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cns-gE-GQh">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cns-gE-GQh">
                                                         <rect key="frame" x="115" y="0.0" width="100" height="40"/>
                                                         <color key="backgroundColor" name="enameLightGrey"/>
                                                         <constraints>
@@ -110,10 +110,10 @@
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
-                                                            <action selector="lengthBtn2Action:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="eR5-Q5-79o"/>
+                                                            <action selector="lengthBtnAction:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="FkB-ia-MzA"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GNE-sH-YO3">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GNE-sH-YO3">
                                                         <rect key="frame" x="230" y="0.0" width="100" height="40"/>
                                                         <color key="backgroundColor" name="enameLightGrey"/>
                                                         <constraints>
@@ -131,7 +131,7 @@
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
-                                                            <action selector="lengthBtn3Action:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="QDM-FE-u4V"/>
+                                                            <action selector="lengthBtnAction:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="yrL-Bb-os0"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -145,7 +145,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="u9W-6G-XRx">
                                                 <rect key="frame" x="20" y="238.66666666666669" width="330" height="40"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J4u-zZ-g7x">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J4u-zZ-g7x">
                                                         <rect key="frame" x="0.0" y="0.0" width="100" height="40"/>
                                                         <color key="backgroundColor" name="enameLightGrey"/>
                                                         <constraints>
@@ -162,8 +162,11 @@
                                                                 <integer key="value" value="5"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="genderBtnAction:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="lAh-RL-Z9p"/>
+                                                        </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1HV-b2-W8z">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1HV-b2-W8z">
                                                         <rect key="frame" x="115" y="0.0" width="100" height="40"/>
                                                         <color key="backgroundColor" name="enameLightGrey"/>
                                                         <constraints>
@@ -180,8 +183,11 @@
                                                                 <integer key="value" value="5"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="genderBtnAction:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="uVf-7O-fXX"/>
+                                                        </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dqm-BA-WRz">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dqm-BA-WRz">
                                                         <rect key="frame" x="230" y="0.0" width="100" height="40"/>
                                                         <color key="backgroundColor" name="enameLightGrey"/>
                                                         <constraints>
@@ -198,6 +204,9 @@
                                                                 <integer key="value" value="5"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="genderBtnAction:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="CbX-20-rFz"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -210,7 +219,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Rgb-40-C8q">
                                                 <rect key="frame" x="20" y="348" width="330" height="40"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YiJ-jk-iRa">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YiJ-jk-iRa">
                                                         <rect key="frame" x="0.0" y="0.0" width="100" height="40"/>
                                                         <color key="backgroundColor" name="enameLightGrey"/>
                                                         <constraints>
@@ -227,8 +236,11 @@
                                                                 <integer key="value" value="5"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="popularBtnAction:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="PUU-3I-NFU"/>
+                                                        </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CVI-9E-YnE">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CVI-9E-YnE">
                                                         <rect key="frame" x="115" y="0.0" width="100" height="40"/>
                                                         <color key="backgroundColor" name="enameLightGrey"/>
                                                         <constraints>
@@ -245,8 +257,11 @@
                                                                 <integer key="value" value="5"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="popularBtnAction:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="OTx-Pu-31f"/>
+                                                        </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aE6-ie-mLU">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aE6-ie-mLU">
                                                         <rect key="frame" x="230" y="0.0" width="100" height="40"/>
                                                         <color key="backgroundColor" name="enameLightGrey"/>
                                                         <constraints>
@@ -263,6 +278,9 @@
                                                                 <integer key="value" value="5"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="popularBtnAction:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="mcc-6l-Pnx"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -275,7 +293,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="I8B-92-ecA">
                                                 <rect key="frame" x="20" y="457.33333333333331" width="330" height="40"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="blq-Wl-ZiU">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="blq-Wl-ZiU">
                                                         <rect key="frame" x="0.0" y="0.0" width="100" height="40"/>
                                                         <color key="backgroundColor" name="enameLightGrey"/>
                                                         <constraints>
@@ -292,8 +310,11 @@
                                                                 <integer key="value" value="5"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="christianityBtnAction:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="tUE-86-wGl"/>
+                                                        </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eJF-9D-Nnr">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eJF-9D-Nnr">
                                                         <rect key="frame" x="115" y="0.0" width="100" height="40"/>
                                                         <color key="backgroundColor" name="enameLightGrey"/>
                                                         <constraints>
@@ -310,8 +331,11 @@
                                                                 <integer key="value" value="5"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="christianityBtnAction:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="7fR-Fa-jd4"/>
+                                                        </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3pG-Sr-ylf">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3pG-Sr-ylf">
                                                         <rect key="frame" x="230" y="0.0" width="100" height="40"/>
                                                         <color key="backgroundColor" name="enameLightGrey"/>
                                                         <constraints>
@@ -328,6 +352,9 @@
                                                                 <integer key="value" value="5"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="christianityBtnAction:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="tRs-v4-baz"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -340,13 +367,13 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="b3O-Ct-DqC">
                                                 <rect key="frame" x="20" y="566.66666666666663" width="330" height="40"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KXL-rL-wAr">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KXL-rL-wAr">
                                                         <rect key="frame" x="0.0" y="0.0" width="155" height="40"/>
                                                         <color key="backgroundColor" name="enameLightGrey"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="40" id="qmq-C7-LyK"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <state key="normal" title="E">
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -356,14 +383,17 @@
                                                                 <integer key="value" value="5"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="mbtiEIBtnAction:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="LGB-0P-qKX"/>
+                                                        </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wn5-Eh-KjH">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wn5-Eh-KjH">
                                                         <rect key="frame" x="175" y="0.0" width="155" height="40"/>
                                                         <color key="backgroundColor" name="enameLightGrey"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="40" id="aps-pI-5HC"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <state key="normal" title="I">
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -373,19 +403,22 @@
                                                                 <integer key="value" value="5"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="mbtiEIBtnAction:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="645-hR-UkL"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="WBL-d2-pZf">
                                                 <rect key="frame" x="20" y="616.66666666666663" width="330" height="40"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b2c-xF-jmv">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b2c-xF-jmv">
                                                         <rect key="frame" x="0.0" y="0.0" width="155" height="40"/>
                                                         <color key="backgroundColor" name="enameLightGrey"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="40" id="H7d-zp-7bX"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <state key="normal" title="S">
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -395,14 +428,17 @@
                                                                 <integer key="value" value="5"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="mbtiSNBtnArray:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="2V5-yA-1L3"/>
+                                                        </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="luP-xC-TBn">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="luP-xC-TBn">
                                                         <rect key="frame" x="175" y="0.0" width="155" height="40"/>
                                                         <color key="backgroundColor" name="enameLightGrey"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="40" id="CH8-Xj-8TX"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <state key="normal" title="N">
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -412,19 +448,22 @@
                                                                 <integer key="value" value="5"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="mbtiSNBtnArray:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="KlH-BI-yjg"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="bEq-PX-hP2">
                                                 <rect key="frame" x="20" y="666.66666666666663" width="330" height="40"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hcf-Wc-Vdl">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hcf-Wc-Vdl">
                                                         <rect key="frame" x="0.0" y="0.0" width="155" height="40"/>
                                                         <color key="backgroundColor" name="enameLightGrey"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="40" id="UDk-AU-S5d"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <state key="normal" title="T">
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -434,14 +473,17 @@
                                                                 <integer key="value" value="5"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="mbtiTFBtnArray:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="801-Dr-occ"/>
+                                                        </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a0x-QU-hic">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a0x-QU-hic">
                                                         <rect key="frame" x="175" y="0.0" width="155" height="40"/>
                                                         <color key="backgroundColor" name="enameLightGrey"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="40" id="ros-zv-mUh"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <state key="normal" title="F">
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -451,19 +493,22 @@
                                                                 <integer key="value" value="5"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="mbtiTFBtnArray:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="nKA-4a-YDP"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="cvs-za-f5u">
                                                 <rect key="frame" x="20" y="716.66666666666663" width="330" height="40"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cwz-Bc-Bn2">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cwz-Bc-Bn2">
                                                         <rect key="frame" x="0.0" y="0.0" width="155" height="40"/>
                                                         <color key="backgroundColor" name="enameLightGrey"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="40" id="YC1-ah-Cax"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <state key="normal" title="J">
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -473,14 +518,17 @@
                                                                 <integer key="value" value="5"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="mbtiJPBtnArray:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="lwC-yj-rYS"/>
+                                                        </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g04-PR-pvD">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g04-PR-pvD">
                                                         <rect key="frame" x="175" y="0.0" width="155" height="40"/>
                                                         <color key="backgroundColor" name="enameLightGrey"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="40" id="BcL-Hu-GQq"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <state key="normal" title="P">
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -490,6 +538,9 @@
                                                                 <integer key="value" value="5"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="mbtiJPBtnArray:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="bgX-Sj-cEQ"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -598,8 +649,8 @@
                         <outlet property="mbtiButton3" destination="b2c-xF-jmv" id="BVJ-I1-4rr"/>
                         <outlet property="mbtiButton4" destination="luP-xC-TBn" id="XU8-9h-dlY"/>
                         <outlet property="mbtiButton5" destination="Hcf-Wc-Vdl" id="klF-DE-tOT"/>
-                        <outlet property="mbtiButton6" destination="cwz-Bc-Bn2" id="q9B-kL-5Qr"/>
-                        <outlet property="mbtiButton7" destination="g04-PR-pvD" id="lze-PA-tii"/>
+                        <outlet property="mbtiButton6" destination="a0x-QU-hic" id="4wf-2U-78w"/>
+                        <outlet property="mbtiButton7" destination="cwz-Bc-Bn2" id="czj-Za-Jk6"/>
                         <outlet property="mbtiButton8" destination="g04-PR-pvD" id="yrT-o7-huQ"/>
                         <outlet property="popularButton1" destination="YiJ-jk-iRa" id="hQr-eB-Q5I"/>
                         <outlet property="popularButton2" destination="CVI-9E-YnE" id="OOs-wJ-H8U"/>
@@ -635,8 +686,8 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wue-16-l3Q">
-                                        <rect key="frame" x="299" y="20" width="56" height="30"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <rect key="frame" x="303" y="20.666666666666671" width="52" height="29"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="설문 취소">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -854,8 +905,8 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ff-Iq-PGb">
-                                        <rect key="frame" x="299" y="20" width="56" height="30"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <rect key="frame" x="303" y="20.666666666666671" width="52" height="29"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="설문 취소">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -934,6 +985,14 @@
                             <constraint firstAttribute="trailing" secondItem="prn-2r-cqf" secondAttribute="trailing" constant="20" id="wV9-uU-h8D"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="containerView1" destination="oOw-zg-NyK" id="p4c-uO-GfD"/>
+                        <outlet property="containerView2" destination="vax-Ns-Bzq" id="iJe-Cb-HbF"/>
+                        <outlet property="imageLabel1" destination="Gsk-ac-Mzr" id="oER-dH-8V6"/>
+                        <outlet property="imageLabel2" destination="Y3U-AM-wuS" id="2xK-pY-cOJ"/>
+                        <outlet property="imageView1" destination="lWT-Nm-KX3" id="Yr8-MA-VbS"/>
+                        <outlet property="imageView2" destination="Fk5-Br-RLG" id="FPo-ZK-FGv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5sW-5m-nGZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
