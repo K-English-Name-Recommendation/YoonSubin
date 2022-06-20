@@ -11,11 +11,6 @@
 		8E4690FC284E63670017A081 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4690FB284E63670017A081 /* Login.storyboard */; };
 		8E4690FE284E63760017A081 /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4690FD284E63760017A081 /* SignUp.storyboard */; };
 		8E469100284E63820017A081 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4690FF284E63820017A081 /* SignUpViewController.swift */; };
-		8E469107284E65260017A081 /* Comfortaa-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E469102284E65260017A081 /* Comfortaa-Light.ttf */; };
-		8E469108284E65260017A081 /* Comfortaa-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E469103284E65260017A081 /* Comfortaa-SemiBold.ttf */; };
-		8E469109284E65260017A081 /* Comfortaa-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E469104284E65260017A081 /* Comfortaa-Bold.ttf */; };
-		8E46910A284E65260017A081 /* Comfortaa-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E469105284E65260017A081 /* Comfortaa-Regular.ttf */; };
-		8E46910B284E65260017A081 /* Comfortaa-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E469106284E65260017A081 /* Comfortaa-Medium.ttf */; };
 		8E4941C928579F2700E3F5E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4941C828579F2700E3F5E3 /* Main.storyboard */; };
 		8E4941CB28579F3E00E3F5E3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4941CA28579F3E00E3F5E3 /* MainViewController.swift */; };
 		8E4941D72857B8A200E3F5E3 /* Survey.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4941D62857B8A200E3F5E3 /* Survey.storyboard */; };
@@ -52,11 +47,6 @@
 		8E4690FB284E63670017A081 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		8E4690FD284E63760017A081 /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
 		8E4690FF284E63820017A081 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		8E469102284E65260017A081 /* Comfortaa-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comfortaa-Light.ttf"; path = "../../../../../../../../../../Downloads/Comfortaa-2/static/Comfortaa-Light.ttf"; sourceTree = "<group>"; };
-		8E469103284E65260017A081 /* Comfortaa-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comfortaa-SemiBold.ttf"; path = "../../../../../../../../../../Downloads/Comfortaa-2/static/Comfortaa-SemiBold.ttf"; sourceTree = "<group>"; };
-		8E469104284E65260017A081 /* Comfortaa-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comfortaa-Bold.ttf"; path = "../../../../../../../../../../Downloads/Comfortaa-2/static/Comfortaa-Bold.ttf"; sourceTree = "<group>"; };
-		8E469105284E65260017A081 /* Comfortaa-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comfortaa-Regular.ttf"; path = "../../../../../../../../../../Downloads/Comfortaa-2/static/Comfortaa-Regular.ttf"; sourceTree = "<group>"; };
-		8E469106284E65260017A081 /* Comfortaa-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Comfortaa-Medium.ttf"; path = "../../../../../../../../../../Downloads/Comfortaa-2/static/Comfortaa-Medium.ttf"; sourceTree = "<group>"; };
 		8E4941C828579F2700E3F5E3 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8E4941CA28579F3E00E3F5E3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		8E4941D62857B8A200E3F5E3 /* Survey.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Survey.storyboard; sourceTree = "<group>"; };
@@ -115,18 +105,6 @@
 				8E8BB154284F420400301EC5 /* WelcomeViewController.swift */,
 			);
 			path = Auth;
-			sourceTree = "<group>";
-		};
-		8E469101284E651A0017A081 /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				8E469104284E65260017A081 /* Comfortaa-Bold.ttf */,
-				8E469102284E65260017A081 /* Comfortaa-Light.ttf */,
-				8E469106284E65260017A081 /* Comfortaa-Medium.ttf */,
-				8E469105284E65260017A081 /* Comfortaa-Regular.ttf */,
-				8E469103284E65260017A081 /* Comfortaa-SemiBold.ttf */,
-			);
-			path = Fonts;
 			sourceTree = "<group>";
 		};
 		8E4941C728579F1200E3F5E3 /* Main */ = {
@@ -242,7 +220,6 @@
 		8EB8FA23282CE47400B3BCEC /* Asset */ = {
 			isa = PBXGroup;
 			children = (
-				8E469101284E651A0017A081 /* Fonts */,
 				8EB8FA13282CE12700B3BCEC /* Assets.xcassets */,
 			);
 			path = Asset;
@@ -351,21 +328,16 @@
 			files = (
 				8EB8FA17282CE12700B3BCEC /* LaunchScreen.storyboard in Resources */,
 				8EB8FA14282CE12700B3BCEC /* Assets.xcassets in Resources */,
-				8E469108284E65260017A081 /* Comfortaa-SemiBold.ttf in Resources */,
 				8E4690FE284E63760017A081 /* SignUp.storyboard in Resources */,
 				8EB8FA12282CE12600B3BCEC /* Main.storyboard in Resources */,
 				8E8BB157284F420D00301EC5 /* Welcome.storyboard in Resources */,
 				8E4941D72857B8A200E3F5E3 /* Survey.storyboard in Resources */,
 				8E4D56DD285E2A640020F018 /* Result.storyboard in Resources */,
-				8E469107284E65260017A081 /* Comfortaa-Light.ttf in Resources */,
 				8E4941C928579F2700E3F5E3 /* Main.storyboard in Resources */,
 				8E4690FC284E63670017A081 /* Login.storyboard in Resources */,
 				8EB8FA27282CE4BC00B3BCEC /* Home.storyboard in Resources */,
-				8E46910A284E65260017A081 /* Comfortaa-Regular.ttf in Resources */,
 				8E58BBCF285F663000DF9F44 /* Profile.storyboard in Resources */,
-				8E469109284E65260017A081 /* Comfortaa-Bold.ttf in Resources */,
 				8E4941E028585E8D00E3F5E3 /* Data.json in Resources */,
-				8E46910B284E65260017A081 /* Comfortaa-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
