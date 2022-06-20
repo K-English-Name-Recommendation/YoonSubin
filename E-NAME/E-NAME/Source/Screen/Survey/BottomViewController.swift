@@ -13,6 +13,7 @@ class BottomViewController: UIViewController {
     var englishMeaning: String?
     var koreanMeaning: String?
     var genderMeaning: String?
+    var religion: Bool?
     
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var detailLabel: UILabel!
@@ -35,10 +36,13 @@ class BottomViewController: UIViewController {
         guard let name = name,
               let englishMeaning = englishMeaning,
               let koreanMeaning = koreanMeaning,
-              let genderMeaning = genderMeaning else { return }
+              let genderMeaning = genderMeaning,
+              let religion = religion else { return }
+        
+        let religions = religion ? "O" : "X"
         
         nameLabel.text = name
-        detailLabel.text = "영어 뜻 : " + englishMeaning + "\n한글 뜻 : " + koreanMeaning + "\n성별 : " + genderMeaning
+        detailLabel.text = "영어 뜻 : " + englishMeaning + "\n한글 뜻 : " + koreanMeaning + "\n성별 : " + genderMeaning + "\n종교여부 : " + religions
     }
 }
 
