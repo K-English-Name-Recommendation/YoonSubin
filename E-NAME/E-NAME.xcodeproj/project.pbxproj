@@ -148,9 +148,9 @@
 				8EC091F92858FA82006B3DAE /* FirstViewController.swift */,
 				8EC091FC2858FADA006B3DAE /* SecondViewController.swift */,
 				8EC091FE2858FAE1006B3DAE /* ThirdViewController.swift */,
+				8E6D4D7F285E4FDB00536898 /* WaitingViewController.swift */,
 				8E4D56DE285E2A7D0020F018 /* ResultViewController.swift */,
 				8E4EE046285E4BEB00771FD3 /* BottomViewController.swift */,
-				8E6D4D7F285E4FDB00536898 /* WaitingViewController.swift */,
 			);
 			path = Survey;
 			sourceTree = "<group>";

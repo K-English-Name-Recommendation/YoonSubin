@@ -49,6 +49,7 @@ class ResultViewController: UIViewController {
         bottomVC.englishMeaning = nameData?.mean.components(separatedBy: "@")[0]
         bottomVC.koreanMeaning = nameData?.mean.components(separatedBy: "@")[1]
         bottomVC.genderMeaning = genderString
+        bottomVC.religion = nameData?.christianity
 
         bottomVC.modalTransitionStyle = .crossDissolve
         bottomVC.modalPresentationStyle = .overFullScreen
@@ -71,7 +72,7 @@ class ResultViewController: UIViewController {
             break
         }
         nameLabel.text = nameData?.name
-        detailLabel.text = "뜻 : " + (nameData?.mean.replacingOccurrences(of: "@", with: "\n     ") ?? "") + "\n성별 : " + genderString
+        detailLabel.text = "뜻 : " + (nameData?.mean.replacingOccurrences(of: "@", with: "\n      ") ?? "") + "\n성별 : " + genderString
     }
     
     @IBAction func homeButtonTapped(_ sender: Any) {
