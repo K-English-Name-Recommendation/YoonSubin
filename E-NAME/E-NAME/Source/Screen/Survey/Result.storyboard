@@ -321,16 +321,16 @@
                                                         </state>
                                                     </button>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Aon-OP-Dqh">
-                                                        <rect key="frame" x="30" y="38.666666666666686" width="195" height="73"/>
+                                                        <rect key="frame" x="30" y="38" width="195" height="74"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7at-NW-x9L">
-                                                                <rect key="frame" x="0.0" y="0.0" width="195" height="22.333333333333332"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="195" height="23.333333333333332"/>
                                                                 <fontDescription key="fontDescription" name="Comfortaa-SemiBold" family="Comfortaa" pointSize="20"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="FNY-S0-928">
-                                                                <rect key="frame" x="0.0" y="37.333333333333314" width="195" height="35.666666666666657"/>
+                                                                <rect key="frame" x="0.0" y="38.333333333333371" width="195" height="35.666666666666657"/>
                                                                 <attributedString key="attributedText">
                                                                     <fragment content="뜻">
                                                                         <attributes>
@@ -528,13 +528,13 @@
                                 <rect key="frame" x="30" y="228" width="315" height="500"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kJl-Og-wuX">
-                                        <rect key="frame" x="187.66666666666666" y="50" width="107.33333333333334" height="39.333333333333343"/>
+                                        <rect key="frame" x="202" y="50" width="93" height="41"/>
                                         <fontDescription key="fontDescription" name="Comfortaa-Regular" family="Comfortaa" pointSize="35"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000000000000004" translatesAutoresizingMaskIntoConstraints="NO" id="TD1-bh-rRE">
-                                        <rect key="frame" x="20" y="189.33333333333331" width="275" height="142.33333333333331"/>
+                                        <rect key="frame" x="20" y="191" width="275" height="142.33333333333337"/>
                                         <attributedString key="attributedText">
                                             <fragment content="영어 뜻 : 한글 ">
                                                 <attributes>
